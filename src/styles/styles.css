@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color:#66717E /*agregue color de fondo para que se vea mejor*/
 }
 
 html {
@@ -84,3 +85,4 @@ html {
     padding: 4em 0px;
   }
 }
+
