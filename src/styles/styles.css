@@ -54,7 +54,24 @@ html {
   letter-spacing: 2px;
 }
 
-@media (max-width: 1440px) {
+/* Start - Estilos editados para evitar que las imágenes del carrusel se estiren */
+
+.carousel-item {
+  height: 450px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  display: block;
+  margin: auto;
+  height: 450px;
+}
+
+/* End - Estilos editados para evitar que las imágenes del carrusel se estiren */
+
+/* La anotación @media se comenta para que el banner funcione correctamente para pantallas con width > 1440px */
+
+/* @media (max-width: 1440px) { */
   .banner-l {
     width: 500px;
     min-height: 728px;
@@ -62,7 +79,7 @@ html {
   .banner-r {
     margin-left: 500px;
   }
-}
+/* } */
 
 @media (max-width: 991px) {
   .banner-l {
